@@ -2,7 +2,7 @@
 
 **A controlled RAG-based policy assistant that helps staff answer internal policy and operations questions with source grounding, confidence cues, and escalation boundaries.**
 
-Northbridge Policy Assistant is an applied AI final project built to show how generative AI can support real business workflows without becoming an uncontrolled chatbot. The project uses retrieval-augmented generation, LangGraph-style tool routing, and a document search tool to answer questions from approved Northbridge materials.
+Northbridge Policy Assistant is an applied AI final project built to show how generative AI can support operational teams without becoming an uncontrolled chatbot. The project uses retrieval-augmented generation, LangGraph-style tool routing, and a document search tool to help staff turn scattered policy and operations materials into source-grounded answers, confidence cues, and escalation decisions.
 
 ## Business Problem
 
@@ -14,7 +14,7 @@ Policy, compliance, and operations teams often rely on internal manuals, memos, 
 - Risk when unsupported assumptions are treated as facts.
 - Poor escalation when documentation does not support a confident answer.
 
-The goal of this project is to show how AI can assist with first-pass policy support while keeping human review and documented sources central to the workflow.
+The goal of this project is to reduce the friction of first-pass policy support while keeping human review and documented sources central to the workflow.
 
 ## Solution
 
@@ -27,7 +27,7 @@ Northbridge Policy Assistant uses a controlled retrieval workflow:
 - Returns answers with source references and confidence cues.
 - Escalates when documentation is insufficient instead of inventing an answer.
 
-The assistant is designed as a business workflow support tool, not a free-form chatbot.
+The assistant is designed as a business workflow support tool, not a free-form chatbot. It supports the handoff from "I need an answer" to "this is supported, uncertain, or should be escalated."
 
 ## What This Demonstrates
 
@@ -38,6 +38,7 @@ The assistant is designed as a business workflow support tool, not a free-form c
 - Source-grounded answers.
 - Confidence and escalation controls.
 - Human-in-the-loop review boundaries.
+- Operational decision support for review-heavy policy questions.
 - Business process automation for policy, compliance, and operations teams.
 
 ## System Architecture
