@@ -1,0 +1,7 @@
+langchain-core
+langchain-openai
+langgraph
+numpy
+pandas
+pypdf
+python-dotenv
